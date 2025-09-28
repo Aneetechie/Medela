@@ -1,0 +1,48 @@
+body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ .login-card {
+      border-radius: 20px;
+      overflow: hidden;
+      max-width: 900px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+.login-left {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+.login-left img {
+      max-width: 200px;
+    }
+.login-right {
+      padding: 1rem;
+    }
+.form-control {
+      border-radius: 30px;
+      padding: 0.8rem 1rem;
+    }
+.btn-custom {
+      border-radius: 30px;
+      background-color: #3ca89d;
+      color: white;
+      font-weight: 600;
+    }
+.btn-custom:hover {
+      background-color: #2f8077;
+    }
+
+    @media screen and (max-width: 435px ) {
+        h5{
+            font-size: 2.5rem !important;
+        }
+    }
+
+    

@@ -1,0 +1,54 @@
+#searchPatient::placeholder {
+    color: rgba(91, 93, 94, 0.7); 
+    opacity: 1;
+    font-style: italic;
+    
+}
+
+#searchPatient:focus {
+    box-shadow: none; 
+    outline: none;    
+}
+
+.custom-search {
+    border: none;            
+    width: 100px;            
+    padding: 0.25rem 0.5rem; 
+}
+
+.custom-search:focus {
+    box-shadow: none;
+    outline: none;   
+}
+.card {
+    box-shadow: 0 12px 25px rgba(3, 0, 0, 0.6);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.stats-card {
+  width: 23rem;
+  height: 6rem;
+  background-color: #dfe3ee;
+}
+
+@media (max-width: 576px) {
+  .stats-card {
+    width: 100%;  
+    height: auto;  
+  }
+
+  
+}
+
+
+@media screen and (max-width: 465) {
+  #patientsDisplay{
+    padding-bottom: 20px;
+  }
+
+
+}

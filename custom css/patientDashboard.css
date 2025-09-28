@@ -1,0 +1,40 @@
+
+
+    :root {
+      --primary-color: #9311d4;
+      --secondary-color: #363753;
+      --background-color: #dfe3ee;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--secondary-color);
+      font-family: "Inter", sans-serif;
+    }
+
+    .bg-primary-custom {
+      background-color: var(--primary-color) !important;
+    }
+
+    .text-primary-custom {
+      color: var(--primary-color) !important;
+    }
+
+    .card-custom {
+      border-radius: 0.75rem;
+      overflow: hidden;
+    }
+
+    .list-group-item {
+      border: none;
+    }
+
+    .dropdown-menu {
+      background-color: var(--secondary-color);
+    }
+
+    @media screen and (max-width: 465px) {
+      #profilecard{
+        margin-left: 90px;
+      }
+    }

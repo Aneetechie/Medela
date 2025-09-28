@@ -1,0 +1,129 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #363753;
+    }
+    .hero {
+      background-color: #fcfcff;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .hero .btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 2rem;
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      color: #5cd2c6;
+    }
+    .feature-card {
+      background: white;
+      border: none;
+      padding: 2rem;
+      border-radius: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .footer {
+      background-color: #fcfcff;
+      color: #363753;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+  
+
+
+.hero {
+    position: relative;
+    height: 100vh; 
+    background: url('/assets/images/onlinedoctor.avif') 
+                no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;
+    overflow: hidden;
+    color: #5cd2c6;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.hero-logo h5 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #5cd2c6;
+}
+
+.hero h1, .hero p, .hero .btn {
+    position: relative;
+    z-index: 1;
+}
+
+.hero i {
+    font-size: 2rem; /* smaller icon for top-left logo */
+}
+
+.signup-btn {
+    background-color: #5cd2c6;
+    color: #363753;
+    font-weight: bold;
+}
+
+.form-section {
+    background: linear-gradient(to bottom right, #e0f7fa, #f0f4f8);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.form-floating input:focus {
+    border-color: #5cd2c6;
+    box-shadow: 0 0 5px rgba(92, 210, 198, 0.5);
+}
+
+

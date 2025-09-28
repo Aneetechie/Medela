@@ -67,7 +67,7 @@ if (!token) {
 const doctorName = localStorage.getItem('doctorName');
 const encodedName = encodeURIComponent(doctorName);
 const inviteLink = document.getElementById('inviteLink').value = `
-  https://medela.netlify.app/pages/invited.html?doctorName=${encodedName}`;
+  https://medelaapp.netlify.app/pages/invited.html?doctorName=${encodedName}`;
 
 document.getElementById('copyBtn').addEventListener('click', () => {
   navigator.clipboard.writeText(inviteLink)

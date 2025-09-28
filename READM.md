@@ -9,9 +9,7 @@ Medela is a healthcare-focused web application designed to **connect doctors and
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---

@@ -21,6 +21,19 @@ Medela is a healthcare-focused web application designed to **connect doctors and
 - **Secure Authentication:** Handles user login/signup with token-based authentication.  
 - **Data Insights:** Provides meaningful recovery insights for healthcare decisions.
 
+Doctor Details
+sign up & Login
+email: danieljoe@gmail.com
+password: Daniel200
+
+Patient Deatils
+sign up & login
+email: tonyPaul@gmail.com
+password: Tonypaul222
+Type of surgery: BBL
+Date of surgery: 13/09/2025
+
+
 ---
 
 ## Technologies Used

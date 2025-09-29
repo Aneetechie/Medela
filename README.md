@@ -7,17 +7,22 @@ Installation
 Usage
 Contributing
 Contact
+
 Features
 Doctor Dashboard: Allows doctors to view patient information, reports, and get insights on patients overall recovery journey.
 Patient Management: Enables secure registration and login for patients and tracks their recovery data.
 Responsive Design: Fully mobile-friendly and optimized for desktops.
 Secure Authentication: Handles user login/signup with token-based authentication.
 Data Insights: Provides meaningful recovery insights for healthcare decisions.
+
+
 Technologies Used
 Frontend: HTML5, CSS3, Bootstrap 5, JavaScript
 Backend: PHP
 Database: MySQL
 Version Control: Git & GitHub
+
+
 Installation
 Clone the repository:
 git clone https://github.com/yourusername/medela.git
@@ -36,4 +41,5 @@ Contact
 Author: Anita Hart
 Email: your-email@example.com
 GitHub: (https://github.com/Aneetechie)﻿# Medela Project
+
 
